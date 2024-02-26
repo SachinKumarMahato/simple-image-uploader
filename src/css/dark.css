@@ -1,0 +1,38 @@
+@import url("./variables.css");
+
+body.dark {
+  background-color: var(--clr-black);
+}
+.dark .navbar {
+  border-bottom: 1px solid var(--clr-gray);
+}
+
+.dark .navbar-title {
+  color: white;
+}
+.dark .navbar-theme-switcher {
+  background-color: var(--clr-gray);
+}
+
+.dark .img-sun {
+  display: block;
+}
+.dark .img-moon {
+  display: none;
+}
+
+.dark .box {
+  background-color: var(--clr-lightBlack);
+}
+.dark .box-wrapper {
+  border-color: var(--clr-gray);
+
+}
+
+.dark .details-drag {
+  color: var(--clr-lightGray);
+}
+.dark .details-size {
+  color: var(--clr-lightGray);
+  font-weight: 100;
+}

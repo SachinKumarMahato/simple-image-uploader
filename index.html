@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Uploader</title>
+  <link rel="stylesheet" href="./src/css/styles.css" id="theme-link">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-upload">
+      <img src="./src/images/logo-small.svg" alt="">
+      <p class="navbar-title">ImageUpload</p>
+    </div>
+    <picture class="navbar-theme-switcher" data-id="themeSwitcher">
+      <img class="img-moon" src="./src/images/Moon_fill.svg" alt="moon icon">
+      <img class="img-sun" src="./src/images/Sun_fill.svg" alt="sun icon" >
+    </picture>
+  </nav>
+    <main class="box" data-id="box" draggable="true">
+    <div class="box-wrapper" data-id="wrapper">
+      <section class="upload-icon">
+        <div>   
+          <img type="file" class="box-img" data-id="file"  src="./src/images/exit.svg" alt="">
+        </div>
+        <div class="details">
+          <p class="details-drag">Drag & drop a file or <span>browse files</span></p>
+          <p class="details-size">JPG, PNG or GIF - Max file size 2MB</p>
+        </div>
+      <section/>
+    </div>
+    </main>
+    <div class="buttons" data-id="buttons">
+      <div class="buttons-wrapper">
+
+        <button class="buttons-download" data-id="download-btn"></button>
+        <button class="buttons-share" data-id="share-btn"></button>
+      </div>
+      </div>
+    
+  <script src="./src/js/app.js"></script>
+</body>
+</html>
